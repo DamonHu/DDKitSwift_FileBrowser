@@ -15,6 +15,7 @@
 		E4AF3D4B29E959780015675E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AF3D4A29E959780015675E /* Assets.xcassets */; };
 		E4AF3D4E29E959780015675E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4AF3D4C29E959780015675E /* LaunchScreen.storyboard */; };
 		E4E1EAB629E9606F00300FD4 /* ZXFileBrowser+zxkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1EAB529E9606F00300FD4 /* ZXFileBrowser+zxkit.swift */; };
+		E4E1EAB929E9642800300FD4 /* zxfilebrowser.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E1EAB829E9642800300FD4 /* zxfilebrowser.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E4AF3D4D29E959780015675E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4AF3D4F29E959780015675E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4E1EAB529E9606F00300FD4 /* ZXFileBrowser+zxkit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZXFileBrowser+zxkit.swift"; sourceTree = "<group>"; };
+		E4E1EAB829E9642800300FD4 /* zxfilebrowser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zxfilebrowser.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		E4E1EAB329E9606F00300FD4 /* pod */ = {
 			isa = PBXGroup;
 			children = (
+				E4E1EAB729E9642800300FD4 /* assets */,
 				E4E1EAB429E9606F00300FD4 /* zxkit */,
 			);
 			name = pod;
@@ -109,6 +112,14 @@
 				E4E1EAB529E9606F00300FD4 /* ZXFileBrowser+zxkit.swift */,
 			);
 			path = zxkit;
+			sourceTree = "<group>";
+		};
+		E4E1EAB729E9642800300FD4 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				E4E1EAB829E9642800300FD4 /* zxfilebrowser.png */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 			files = (
 				E4AF3D4E29E959780015675E /* LaunchScreen.storyboard in Resources */,
 				E4AF3D4B29E959780015675E /* Assets.xcassets in Resources */,
+				E4E1EAB929E9642800300FD4 /* zxfilebrowser.png in Resources */,
 				E4AF3D4929E959760015675E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
