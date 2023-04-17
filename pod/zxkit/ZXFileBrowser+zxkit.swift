@@ -49,6 +49,10 @@ extension ZXFileBrowser: ZXKitPluginProtocol {
     public var isRunning: Bool {
         return false
     }
+    
+    public func willStart() {
+        ZXKit.hide()
+    }
 
     public func stop() {
         
