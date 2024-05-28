@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA3829565EFBDE48961C0F7E /* Pods_fileBrowser_zxkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6F97161D46A62E11D575F8 /* Pods_fileBrowser_zxkit.framework */; };
+		D82FBDD3FF2C1B8C3A95951B /* Pods_DDKitSwift_FileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5830FE09E051E73AA267B2A8 /* Pods_DDKitSwift_FileBrowser.framework */; };
 		E4AF3D4229E959760015675E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF3D4129E959760015675E /* AppDelegate.swift */; };
 		E4AF3D4429E959760015675E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF3D4329E959760015675E /* SceneDelegate.swift */; };
 		E4AF3D4629E959760015675E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF3D4529E959760015675E /* ViewController.swift */; };
@@ -20,8 +20,10 @@
 
 /* Begin PBXFileReference section */
 		2F9E5F2F4748BE40CBB44C33 /* Pods-fileBrowser-zxkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fileBrowser-zxkit.release.xcconfig"; path = "Target Support Files/Pods-fileBrowser-zxkit/Pods-fileBrowser-zxkit.release.xcconfig"; sourceTree = "<group>"; };
-		7B6F97161D46A62E11D575F8 /* Pods_fileBrowser_zxkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fileBrowser_zxkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5830FE09E051E73AA267B2A8 /* Pods_DDKitSwift_FileBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDKitSwift_FileBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F9AE04237CA5369B6FE292 /* Pods-DDKitSwift_FileBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDKitSwift_FileBrowser.debug.xcconfig"; path = "Target Support Files/Pods-DDKitSwift_FileBrowser/Pods-DDKitSwift_FileBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		C0ED5375FAE02BE50C5E6F96 /* Pods-fileBrowser-zxkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fileBrowser-zxkit.debug.xcconfig"; path = "Target Support Files/Pods-fileBrowser-zxkit/Pods-fileBrowser-zxkit.debug.xcconfig"; sourceTree = "<group>"; };
+		CD7D43291CE340F4B60190B8 /* Pods-DDKitSwift_FileBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDKitSwift_FileBrowser.release.xcconfig"; path = "Target Support Files/Pods-DDKitSwift_FileBrowser/Pods-DDKitSwift_FileBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		E4AF3D3E29E959760015675E /* DDKitSwift_FileBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDKitSwift_FileBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AF3D4129E959760015675E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4AF3D4329E959760015675E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA3829565EFBDE48961C0F7E /* Pods_fileBrowser_zxkit.framework in Frameworks */,
+				D82FBDD3FF2C1B8C3A95951B /* Pods_DDKitSwift_FileBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +53,8 @@
 			children = (
 				C0ED5375FAE02BE50C5E6F96 /* Pods-fileBrowser-zxkit.debug.xcconfig */,
 				2F9E5F2F4748BE40CBB44C33 /* Pods-fileBrowser-zxkit.release.xcconfig */,
+				70F9AE04237CA5369B6FE292 /* Pods-DDKitSwift_FileBrowser.debug.xcconfig */,
+				CD7D43291CE340F4B60190B8 /* Pods-DDKitSwift_FileBrowser.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -58,7 +62,7 @@
 		99FD3D50802337DBAFA851F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7B6F97161D46A62E11D575F8 /* Pods_fileBrowser_zxkit.framework */,
+				5830FE09E051E73AA267B2A8 /* Pods_DDKitSwift_FileBrowser.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,7 +203,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-fileBrowser-zxkit-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DDKitSwift_FileBrowser-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -212,15 +216,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-fileBrowser-zxkit/Pods-fileBrowser-zxkit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DDKitSwift_FileBrowser/Pods-DDKitSwift_FileBrowser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-fileBrowser-zxkit/Pods-fileBrowser-zxkit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DDKitSwift_FileBrowser/Pods-DDKitSwift_FileBrowser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fileBrowser-zxkit/Pods-fileBrowser-zxkit-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DDKitSwift_FileBrowser/Pods-DDKitSwift_FileBrowser-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -375,7 +379,7 @@
 		};
 		E4AF3D5329E959780015675E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0ED5375FAE02BE50C5E6F96 /* Pods-fileBrowser-zxkit.debug.xcconfig */;
+			baseConfigurationReference = 70F9AE04237CA5369B6FE292 /* Pods-DDKitSwift_FileBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -388,6 +392,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -403,7 +408,7 @@
 		};
 		E4AF3D5429E959780015675E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F9E5F2F4748BE40CBB44C33 /* Pods-fileBrowser-zxkit.release.xcconfig */;
+			baseConfigurationReference = CD7D43291CE340F4B60190B8 /* Pods-DDKitSwift_FileBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -416,6 +421,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

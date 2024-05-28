@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  fileBrowser-zxkit
+//  fileBrowser-DDKitSwift
 //
 //  Created by Damon on 2023/4/14.
 //
