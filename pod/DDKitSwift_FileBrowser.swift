@@ -28,6 +28,10 @@ extension String{
 open class DDKitSwift_FileBrowser: DDKitSwiftPluginProtocol {
     private var tool = DDFileBrowser.shared
     
+    public init() {
+        
+    }
+    
     public var pluginIdentifier: String {
         return "com.DDKitSwift.DDKitSwift_FileBrowser"
     }
