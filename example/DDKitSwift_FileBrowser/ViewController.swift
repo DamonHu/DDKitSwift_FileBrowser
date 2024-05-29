@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.createUI()
-        DDKitSwift.regist(plugin: DDFileBrowser.shared)
+        DDKitSwift.regist(plugin: DDKitSwift_FileBrowser())
     }
 
     func createUI() {
