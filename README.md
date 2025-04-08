@@ -7,6 +7,12 @@
 
 FileBrowser plugin for [DDKitSwift](https://github.com/DamonHu/DDKitSwift)， build with [DamonHu/DDFileBrowser](https://github.com/DamonHu/DDFileBrowser)
 
+## Regist
+
+```
+DDKitSwift.regist(plugin: DDKitSwift_FileBrowser())
+```
+
 ## License
 
 This project is licensed under the MIT License, allowing you to freely modify and use it.
