@@ -6,6 +6,6 @@ target 'DDKitSwift_FileBrowser' do
   use_frameworks!
 
   # Pods for DDKitSwift_FileBrowser
- 	pod 'DDKitSwift/core', '~> 3'
-	pod 'DDFileBrowser', '~> 3'
+ 	pod 'DDKitSwift/core', '~> 4'
+	pod 'DDFileBrowser', '~> 4'
 end

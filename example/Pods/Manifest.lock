@@ -1,35 +1,35 @@
 PODS:
-  - DDFileBrowser (3.0.1):
-    - DDFileBrowser/core (= 3.0.1)
-  - DDFileBrowser/core (3.0.1):
-    - DDUtils/ui (~> 5.0.0)
-    - DDUtils/utils (~> 5.0.0)
-    - HDHUD (~> 3.0.0)
-    - SnapKit (~> 5.0.0)
-  - DDKitSwift/core (3.0.0):
-    - DDLoggerSwift (~> 5.0.0)
-    - DDUtils/ui (~> 5.0.0)
-    - DDUtils/utils (~> 5.0.0)
-  - DDLoggerSwift (5.0.0):
-    - DDLoggerSwift/core (= 5.0.0)
-  - DDLoggerSwift/core (5.0.0):
-    - DDUtils/ui (~> 5.0.0)
-    - DDUtils/utils (~> 5.0.0)
-  - DDUtils/core (5.0.2)
-  - DDUtils/ui (5.0.2):
+  - DDFileBrowser (3.0.2):
+    - DDFileBrowser/core (= 3.0.2)
+  - DDFileBrowser/core (3.0.2):
+    - DDUtils/ui
+    - DDUtils/utils
+    - HDHUD
+    - SnapKit
+  - DDKitSwift/core (4.0.0):
+    - DDLoggerSwift (~> 5)
+    - DDUtils/ui (~> 5)
+    - DDUtils/utils (~> 5)
+  - DDLoggerSwift (5.3.1):
+    - DDLoggerSwift/core (= 5.3.1)
+  - DDLoggerSwift/core (5.3.1):
+    - DDUtils/ui (~> 5)
+    - DDUtils/utils (~> 5)
+  - DDUtils/core (5.0.13)
+  - DDUtils/ui (5.0.13):
     - DDUtils/core
-  - DDUtils/utils (5.0.2):
+  - DDUtils/utils (5.0.13):
     - DDUtils/core
   - HDHUD (3.0.1):
     - HDHUD/core (= 3.0.1)
   - HDHUD/core (3.0.1):
     - DDUtils/ui (~> 5.0)
     - SnapKit (~> 5.0)
-  - SnapKit (5.0.1)
+  - SnapKit (5.7.1)
 
 DEPENDENCIES:
-  - DDFileBrowser (~> 3.0.0)
-  - DDKitSwift/core (~> 3.0.0)
+  - DDFileBrowser (~> 3)
+  - DDKitSwift/core (~> 4)
 
 SPEC REPOS:
   trunk:
@@ -41,13 +41,13 @@ SPEC REPOS:
     - SnapKit
 
 SPEC CHECKSUMS:
-  DDFileBrowser: b1ac2c4a61152257ab78b5f70b220dddec0d347d
-  DDKitSwift: 3143fa7df258879898f08e16f2b59b1227661541
-  DDLoggerSwift: 3b6e451251ae07a6614d93493b7c4e512e155950
-  DDUtils: 56b14d305b574751a3e5336717a6dfd56dd2c58c
+  DDFileBrowser: 230ec13e9e93b889c84f204582f1003f97f360a6
+  DDKitSwift: a598e532242452a1edf78b9cbfa5a9452cdce3d8
+  DDLoggerSwift: c7c8776b2e56c741ef3c3de8cfaa3eadb2fcf813
+  DDUtils: 9d1dab6514cbe6687348bde7ea0f6f2187b55222
   HDHUD: 4fab24cceccd64c31fe96ce75b82c409f927432f
-  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
 
-PODFILE CHECKSUM: 881b1161d7430b11ae4ff406d6113b4951b81277
+PODFILE CHECKSUM: 443ea9cc905a3ad731a18afa583944c3adaa651b
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

@@ -52,12 +52,10 @@ open class DDKitSwift_FileBrowser: DDKitSwiftPluginProtocol {
         return false
     }
     
-    public func willStart() {
-        DDKitSwift.hide()
-    }
-    
     public func start() {
-        self.tool.start()
+//        self.tool.start()
+        let vc = DDFileBrowserVC()
+        DDKitSwift.getCurrentNavigationVC()?.pushViewController(vc, animated: true)
     }
 
     public func stop() {

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D82FBDD3FF2C1B8C3A95951B /* Pods_DDKitSwift_FileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5830FE09E051E73AA267B2A8 /* Pods_DDKitSwift_FileBrowser.framework */; };
+		E45BEFF12DA4ED94001F382D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E45BEFEF2DA4ED94001F382D /* Localizable.strings */; };
+		E45BEFF22DA4ED94001F382D /* DDFileBrowser.png in Resources */ = {isa = PBXBuildFile; fileRef = E45BEFEC2DA4ED94001F382D /* DDFileBrowser.png */; };
 		E4AF3D4229E959760015675E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF3D4129E959760015675E /* AppDelegate.swift */; };
 		E4AF3D4429E959760015675E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF3D4329E959760015675E /* SceneDelegate.swift */; };
 		E4AF3D4629E959760015675E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF3D4529E959760015675E /* ViewController.swift */; };
@@ -15,7 +17,6 @@
 		E4AF3D4B29E959780015675E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AF3D4A29E959780015675E /* Assets.xcassets */; };
 		E4AF3D4E29E959780015675E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4AF3D4C29E959780015675E /* LaunchScreen.storyboard */; };
 		E4E1EAB629E9606F00300FD4 /* DDKitSwift_FileBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1EAB529E9606F00300FD4 /* DDKitSwift_FileBrowser.swift */; };
-		E4E1EAB929E9642800300FD4 /* zxfilebrowser.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E1EAB829E9642800300FD4 /* zxfilebrowser.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		70F9AE04237CA5369B6FE292 /* Pods-DDKitSwift_FileBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDKitSwift_FileBrowser.debug.xcconfig"; path = "Target Support Files/Pods-DDKitSwift_FileBrowser/Pods-DDKitSwift_FileBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		C0ED5375FAE02BE50C5E6F96 /* Pods-fileBrowser-zxkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fileBrowser-zxkit.debug.xcconfig"; path = "Target Support Files/Pods-fileBrowser-zxkit/Pods-fileBrowser-zxkit.debug.xcconfig"; sourceTree = "<group>"; };
 		CD7D43291CE340F4B60190B8 /* Pods-DDKitSwift_FileBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDKitSwift_FileBrowser.release.xcconfig"; path = "Target Support Files/Pods-DDKitSwift_FileBrowser/Pods-DDKitSwift_FileBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		E45BEFEC2DA4ED94001F382D /* DDFileBrowser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DDFileBrowser.png; sourceTree = "<group>"; };
+		E45BEFED2DA4ED94001F382D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E45BEFEE2DA4ED94001F382D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E4AF3D3E29E959760015675E /* DDKitSwift_FileBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDKitSwift_FileBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AF3D4129E959760015675E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4AF3D4329E959760015675E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +37,6 @@
 		E4AF3D4D29E959780015675E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4AF3D4F29E959780015675E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4E1EAB529E9606F00300FD4 /* DDKitSwift_FileBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDKitSwift_FileBrowser.swift; sourceTree = "<group>"; };
-		E4E1EAB829E9642800300FD4 /* zxfilebrowser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zxfilebrowser.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,14 @@
 				5830FE09E051E73AA267B2A8 /* Pods_DDKitSwift_FileBrowser.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E45BEFF02DA4ED94001F382D /* localizable */ = {
+			isa = PBXGroup;
+			children = (
+				E45BEFEF2DA4ED94001F382D /* Localizable.strings */,
+			);
+			path = localizable;
 			sourceTree = "<group>";
 		};
 		E4AF3D3529E959760015675E = {
@@ -113,7 +124,8 @@
 		E4E1EAB729E9642800300FD4 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				E4E1EAB829E9642800300FD4 /* zxfilebrowser.png */,
+				E45BEFEC2DA4ED94001F382D /* DDFileBrowser.png */,
+				E45BEFF02DA4ED94001F382D /* localizable */,
 			);
 			path = assets;
 			sourceTree = "<group>";
@@ -162,6 +174,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = E4AF3D3529E959760015675E;
 			productRefGroup = E4AF3D3F29E959760015675E /* Products */;
@@ -179,8 +192,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4AF3D4E29E959780015675E /* LaunchScreen.storyboard in Resources */,
+				E45BEFF12DA4ED94001F382D /* Localizable.strings in Resources */,
+				E45BEFF22DA4ED94001F382D /* DDFileBrowser.png in Resources */,
 				E4AF3D4B29E959780015675E /* Assets.xcassets in Resources */,
-				E4E1EAB929E9642800300FD4 /* zxfilebrowser.png in Resources */,
 				E4AF3D4929E959760015675E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +258,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		E45BEFEF2DA4ED94001F382D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45BEFED2DA4ED94001F382D /* en */,
+				E45BEFEE2DA4ED94001F382D /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		E4AF3D4729E959760015675E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
