@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 s.name = 'DDKitSwift_FileBrowser'
 s.swift_version = '5.0'
-s.version = '3.0.3'
+s.version = '4.0.0'
 s.license= { :type => "MIT", :file => "LICENSE" }
-s.summary = 'FileBrowser plugin for ZXKit, build by ZXFileBrowser'
+s.summary = 'FileBrowser plugin for DDKitSwift, build by DDFileBrowser'
 s.homepage = 'https://github.com/DamonHu/DDKitSwift_FileBrowser'
 s.authors = { 'DamonHu' => 'dong765@qq.com' }
 s.source = { :git => "https://github.com/DamonHu/DDKitSwift_FileBrowser.git", :tag => s.version}
@@ -13,7 +13,7 @@ s.resource_bundles = {
     'DDKitSwift_FileBrowser' => ['pod/assets/**/*']
 }
 s.source_files = "pod/*.swift"
-s.dependency 'DDKitSwift/core', '~> 3'
-s.dependency 'DDFileBrowser', '~> 3'
+s.dependency 'DDKitSwift/core', '~> 4'
+s.dependency 'DDFileBrowser', '~> 4'
 s.documentation_url = 'https://github.com/DamonHu/DDKitSwift_FileBrowser'
 end
