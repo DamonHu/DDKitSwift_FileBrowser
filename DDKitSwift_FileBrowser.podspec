@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name = 'DDKitSwift_FileBrowser'
 s.swift_version = '5.0'
-s.version = '4.0.1'
+s.version = '4.0.2'
 s.license= { :type => "MIT", :file => "LICENSE" }
 s.summary = 'FileBrowser plugin for DDKitSwift, build by DDFileBrowser'
 s.homepage = 'https://github.com/DamonHu/DDKitSwift_FileBrowser'
